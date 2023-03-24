@@ -1,8 +1,12 @@
 package dtos.request;
 
+import data.models.User;
+
 import java.lang.constant.Constable;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CreateEmailAccountRequest {
     private String firstName;
@@ -11,7 +15,6 @@ public class CreateEmailAccountRequest {
     private String username;
     private DateTimeFormatter formatter= DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss ");
 
-//    private String username;
 
     @Override
     public String toString() {

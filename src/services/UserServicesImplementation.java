@@ -6,6 +6,7 @@ import dtos.request.CreateEmailAccountRequest;
 import dtos.request.LoginUser;
 import data.models.User;
 import dtos.responses.FindUserResponse;
+import dtos.responses.RegisterUserResponse;
 import utilities.Mapper;
 
 import java.util.Optional;
@@ -30,7 +31,6 @@ public class UserServicesImplementation implements UserServices{
        Mapper.mapAccount(foundUser.get(),response);
            return response;
         }
-//        else throw new IllegalArgumentException("Invalid User or Password");
 
 
     @Override

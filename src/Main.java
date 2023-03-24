@@ -76,6 +76,7 @@ public class Main {
         request.setPassword(input("Enter your password"));
         request.getLocalDateTime();
         var user = userController.register(request);
+//        display(user.toString());
         display(request.toString());
         display("Account created successfully");
         startApp();
@@ -114,7 +115,7 @@ public class Main {
 
         var userAccount = userController.findUser(firstName, lastName);
         display(userAccount.toString());
-        displayAfterLogin();
+        login();
 
     }
     private static void trash(){

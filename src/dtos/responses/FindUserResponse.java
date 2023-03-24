@@ -1,17 +1,25 @@
 package dtos.responses;
 
+import data.models.User;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class FindUserResponse {
     private String username;
     private String fullName;
     private String dateRegistered;
+
+
     private String emailAddress;
+    private List<User> users = new ArrayList<>();
 
     @Override
     public String toString() {
-        return "FindUserResponse{" +
-                "username='" + emailAddress + '\'' +
-                ", fullName='" + fullName + '\'' +
-//                ", dateRegistered='" + dateRegistered + '\'' +
+        return "" +
+                "username :'" + emailAddress + '\'' +
+                ", fullName :'" + fullName + '\'' +
+                ", dateRegistered='" + dateRegistered + '\'' +
                 '}';
     }
 

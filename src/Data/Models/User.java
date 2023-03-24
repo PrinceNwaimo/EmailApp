@@ -9,7 +9,7 @@ public class User {
     private String emailAddress;
 
 
-    public Constable getDateRegistered() {
+    public Object getDateRegistered() {
         return dateRegistered;
     }
 

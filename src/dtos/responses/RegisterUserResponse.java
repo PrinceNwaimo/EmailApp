@@ -1,6 +1,8 @@
 package dtos.responses;
 
-public class RegisterUserResponse {
+import data.models.User;
+
+public class RegisterUserResponse  {
 
     private String firstName;
 

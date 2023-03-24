@@ -1,6 +1,7 @@
 package data.repository;
 
 import data.models.User;
+import dtos.responses.RegisterUserResponse;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,18 +10,21 @@ public class UserRepositoryImplementation implements UserRepository {
     private int count;
     private List<User> users = new ArrayList<>();
 
+
     @Override
     public User save(User user) {
         boolean userHasNotBeenSaved = user.getId() == 0;
         if (userHasNotBeenSaved) saveNew(user);
-        user.setId(generateUserId());
-        users.add(user);
+//        user.setId(generateUserId());
+//        users.add(user);
         count++;
         return user;
     }
+
     private void saveNew(User user) {
         user.setId(generateUserId());
         users.add(user);
+
     }
 
     private int generateUserId() {
@@ -61,17 +65,19 @@ public class UserRepositoryImplementation implements UserRepository {
 
     @Override
     public User findByEmailAddress(String emailAddress) {
-        for(User user : users){
-            if(user.getEmailAddress().equalsIgnoreCase(emailAddress));
-            return user;
+        for (User user : users) {
+            if (user.getEmailAddress().equalsIgnoreCase(emailAddress)){
+                return user;
+            }
         }
         return null;
     }
 
     @Override
     public User findByFirstAndLastName(String firstName, String lastName) {
-        for (User user: users) {
-            if (user.getFirstName().equals(firstName)&& user.getLastName().equals(lastName))
+        for (User user : users) {
+            System.out.println(user);
+            if (user.getFirstName().equals(firstName) && user.getLastName().equals(lastName))
                 return user;
         }
         return null;

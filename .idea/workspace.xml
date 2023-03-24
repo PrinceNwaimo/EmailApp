@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6ca1c4d-3cef-485e-8590-8642eaa651d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_engine.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Email App.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Data/Repository/EmailRepositoryImplementationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Data/Repository/MessageRepositoryImplementationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Data/Repository/UserRepositoryImplementationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/Models/EmailAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/Models/Messages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/Models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/Repository/EmailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/Repository/EmailRepositoryImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/Repository/MailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/Repository/MailRepositoryImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/Repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/Repository/UserRepositoryImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dtos/responses/FindUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dtos/request/CreateEmailAccountRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dtos/request/CreateEmailAccountRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dtos/responses/FindUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dtos/responses/FindUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dtos/responses/RegisterUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dtos/responses/RegisterUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/UserServicesImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserServicesImplementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +50,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -190,6 +176,8 @@
       <workItem from="1679173578702" duration="3582000" />
       <workItem from="1679259435033" duration="11777000" />
       <workItem from="1679385618736" duration="33271000" />
+      <workItem from="1679497450556" duration="2272000" />
+      <workItem from="1679603753765" duration="16170000" />
     </task>
     <servers />
   </component>
